@@ -56,7 +56,7 @@ module.exports = function(grunt) {
             prod: {
                 options: {
                     src: './',
-                    dest: '/var/www/andrewray.me/bellesey-blog',
+                    dest: '/var/www/andrewray.me/bacon-and-olivia',
                     host: 'aray',
                     syncDestIgnoreExcl: true
                 }

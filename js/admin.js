@@ -1,7 +1,7 @@
 /* global phonecatApp:true */
 phonecatApp.controller('admin', function( $scope, $firebase, $firebaseSimpleLogin ) {
 
-    var fireRef = new Firebase('https://bellesey-blog.firebaseio.com');
+    var fireRef = new Firebase('https://bacon-and-olivia.firebaseio.com');
 
     $scope.auth = $firebaseSimpleLogin( fireRef );
 
@@ -10,9 +10,9 @@ phonecatApp.controller('admin', function( $scope, $firebase, $firebaseSimpleLogi
     };
 
     $scope.tags = [{
-        name: 'Belle'
+        name: 'Bacon'
     }, {
-        name: 'Zeus'
+        name: 'Olivia'
     }, {
         name: 'Poop',
     }, {

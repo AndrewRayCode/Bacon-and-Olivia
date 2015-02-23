@@ -1,25 +1,33 @@
 // http://www.colourlovers.com/palette/932683/Compatible
 header {
-    border-top:10px solid #7FC7AF;
-    background:#3FB8AF;
-    color:lighten( #7fc7af, 20% );
-    padding:10px 0;
+    border-top:10px solid #E4DAC2;
+    background:#F4EEE1;
+    box-shadow:inset 0 1px 0 lighten(#F4EEE1, 40%);
+    color:#999;
+    padding:15px 0 15px;
 
+    img {
+        float:left;
+    }
+    .moo {
+        float:left;
+        margin:10px 0 0 15px;
+    }
     h1, a {
         text-decoration:none;
-        color:#fff;
+        color:#666;
     }
 
 }
 
 footer {
-    background:#DAD8A7;
+    background:#EBCFC4;
     padding:10px 0;
-    color:#a88;
+    color:darken( #EBCFC4, 20% );
     font-size:18px;
 
     a {
-        color:darken( #dad8a7, 50% );
+        color:darken( #EBCFC4, 35% );
     }
 
 }
@@ -61,7 +69,7 @@ h2 {
     font-size:28px;
     margin:0 0 5px;
     padding:0;
-    color:#FF3D7F;
+    color:darken( #C4BDAC, 10% );
     font-weight:bold;
 }
 
@@ -121,14 +129,14 @@ h2 {
     }
 }
 
-.icon-belle {
+.icon-bacon {
     @extend .icon;
-    background-image:url(../assets/bellesey-icon.png);
+    background-image:url(../assets/bacon-icon.jpg);
 }
 
-.icon-zeus {
+.icon-olivia {
     @extend .icon;
-    background-image:url(../assets/poots-icon.png);
+    background-image:url(../assets/olivia-icon.jpg);
 }
 
 .icon-poop {
@@ -156,7 +164,7 @@ h2 {
 }
 
 .tag-list {
-    color:darken( #3fb8af, 10% );
+    color:darken( #EBCFC4, 10% );
 }
 
 .post-image {
